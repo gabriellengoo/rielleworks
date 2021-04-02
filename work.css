@@ -726,6 +726,10 @@ body:not(.mobile) .hover-title:hover + .hover-image {
   backdrop-filter: blur(4px);
   -webkit-backdrop-filter: blur(4px);
   }
+
+  #myCanvas {
+    filter: blur(19px);
+  }
  }
  #static {
   position:fixed;
@@ -909,6 +913,10 @@ body:not(.mobile) .hover-title:hover + .hover-image {
   .index-wrap .post-wrap .year {
    display:block
   }
+
+  #myCanvas {
+    filter: blur(19px);
+  }
  }
 
  @media only screen and (min-width:1px) and (max-width:576px) {
@@ -919,6 +927,9 @@ body:not(.mobile) .hover-title:hover + .hover-image {
   }
   .laynavPrimary{
     display: none;
+  }
+  #myCanvas {
+    filter: blur(19px);
   }
  }
  @media (min-width:576px) and (max-width:875px) and (orientation:landscape) {
@@ -933,6 +944,10 @@ body:not(.mobile) .hover-title:hover + .hover-image {
     margin: .0rem;
   backdrop-filter: blur(4px);
   }
+
+  #myCanvas {
+    filter: blur(19px);
+  }
   
  }
  @media only screen and (min-width:1px) and (max-width:576px) {
@@ -943,6 +958,10 @@ body:not(.mobile) .hover-title:hover + .hover-image {
  @media (min-width:576px) and (max-width:875px) and (orientation:landscape) {
   .close-btn {
    position:absolute
+  }
+
+  #myCanvas {
+    filter: blur(19px);
   }
  }
 
@@ -966,6 +985,10 @@ body:not(.mobile) .hover-title:hover + .hover-image {
  @media only screen and (min-width:1px) and (max-width:576px) {
   .project-text-wrap_title {
    padding-top:2.5rem
+  }
+
+  #myCanvas {
+    filter: blur(19px);
   }
  }
  @media (min-width:576px) and (max-width:875px) and (orientation:landscape) {
@@ -999,6 +1022,10 @@ body:not(.mobile) .hover-title:hover + .hover-image {
     visibility:visible;
     margin: .0rem;
   backdrop-filter: blur(4px);
+  }
+
+  #myCanvas {
+    filter: blur(19px);
   }
  
  }
@@ -1059,6 +1086,10 @@ body:not(.mobile) .hover-title:hover + .hover-image {
   }
   .laynavPrimary{
     display: none;
+  }
+
+  #myCanvas {
+    filter: blur(19px);
   }
  }
  @media (min-width:576px) and (max-width:875px) and (orientation:landscape) {
