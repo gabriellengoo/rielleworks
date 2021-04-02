@@ -147,6 +147,9 @@ main {
   grid-column-start: 1;
   grid-column-end: 13;
   z-index: 100;
+  color: #3b3b3b;
+  backdrop-filter: blur(4px);
+  /* filter: blur(5px); */
 }
 .intro-wrap{
   z-index: 100;
@@ -174,9 +177,10 @@ main {
   position: -webkit-sticky;
   position: sticky;
   top: 0;
-  z-index: 1;
   /* backdrop-filter: blur(4px); */
 }
+
+
 
 
 .index-wrap {
@@ -720,6 +724,7 @@ body:not(.mobile) .hover-title:hover + .hover-image {
     visibility:visible;
     margin: .0rem;
   backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
   }
  }
  #static {
@@ -749,7 +754,9 @@ body:not(.mobile) .hover-title:hover + .hover-image {
     z-index: 100;
     visibility:visible;
    font-size:1.5rem;
-   line-height:1.75rem
+   line-height:1.75rem;
+   backdrop-filter: blur(4px);
+   -webkit-backdrop-filter: blur(4px);
   }
   .laynavPrimary{
     display: none;
@@ -759,6 +766,7 @@ body:not(.mobile) .hover-title:hover + .hover-image {
     visibility:visible;
     margin: .0rem;
   backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
   }
  }
 
@@ -796,6 +804,14 @@ body:not(.mobile) .hover-title:hover + .hover-image {
     margin: .0rem;
   backdrop-filter: blur(4px);
   }
+  .intro-wrap div{
+    z-index: 100;
+    visibility:visible;
+   font-size:1.5rem;
+   line-height:1.75rem;
+   backdrop-filter: blur(4px);
+   -webkit-backdrop-filter: blur(4px);
+  }
 }
  @media only screen and (min-width:1px) and (max-width:576px) {
   .filter-menu div:nth-child(2) {
@@ -815,6 +831,14 @@ body:not(.mobile) .hover-title:hover + .hover-image {
     visibility:visible;
     margin: .0rem;
   backdrop-filter: blur(4px);
+  }
+  .intro-wrap div{
+    z-index: 100;
+    visibility:visible;
+   font-size:1.5rem;
+   line-height:1.75rem;
+   backdrop-filter: blur(4px);
+   -webkit-backdrop-filter: blur(4px);
   }
  }
  @media only screen and (min-width:1px) and (max-width:576px) {
@@ -838,6 +862,14 @@ body:not(.mobile) .hover-title:hover + .hover-image {
     visibility:visible;
     margin: .0rem;
   backdrop-filter: blur(4px);
+  }
+  .intro-wrap div{
+    z-index: 100;
+    visibility:visible;
+   font-size:1.5rem;
+   line-height:1.75rem;
+   backdrop-filter: blur(4px);
+   -webkit-backdrop-filter: blur(4px);
   }
  }
 
@@ -882,6 +914,14 @@ body:not(.mobile) .hover-title:hover + .hover-image {
     visibility:visible;
     margin: .0rem;
   backdrop-filter: blur(4px);
+  }
+  .intro-wrap div{
+    z-index: 100;
+    visibility:visible;
+   font-size:1.5rem;
+   line-height:1.75rem;
+   backdrop-filter: blur(4px);
+   -webkit-backdrop-filter: blur(4px);
   }
  }
 
@@ -928,6 +968,14 @@ body:not(.mobile) .hover-title:hover + .hover-image {
     visibility:visible;
     margin: .0rem;
   backdrop-filter: blur(4px);
+  }
+  .intro-wrap div{
+    z-index: 100;
+    visibility:visible;
+   font-size:1.5rem;
+   line-height:1.75rem;
+   backdrop-filter: blur(4px);
+   -webkit-backdrop-filter: blur(4px);
   }
  }
  @media only screen and (min-width:1px) and (max-width:576px) {
@@ -995,6 +1043,14 @@ body:not(.mobile) .hover-title:hover + .hover-image {
     margin: .0rem;
   backdrop-filter: blur(4px);
   }
+  .intro-wrap div{
+    z-index: 100;
+    visibility:visible;
+   font-size:1.5rem;
+   line-height:1.75rem;
+   backdrop-filter: blur(4px);
+   -webkit-backdrop-filter: blur(4px);
+  }
  }
  @media (min-width:576px) and (max-width:875px) and (orientation:landscape) {
   .project-text-wrap {
@@ -1014,6 +1070,14 @@ body:not(.mobile) .hover-title:hover + .hover-image {
     visibility:visible;
     margin: .0rem;
   backdrop-filter: blur(4px);
+  }
+  .intro-wrap div{
+    z-index: 100;
+    visibility:visible;
+   font-size:1.5rem;
+   line-height:1.75rem;
+   backdrop-filter: blur(4px);
+   -webkit-backdrop-filter: blur(4px);
   }
  }
  
@@ -1126,6 +1190,14 @@ body:not(.mobile) .hover-title:hover + .hover-image {
     visibility:visible;
     margin: .0rem;
   backdrop-filter: blur(4px);
+  }
+  .intro-wrap div{
+    z-index: 100;
+    visibility:visible;
+   font-size:1.5rem;
+   line-height:1.75rem;
+   backdrop-filter: blur(4px);
+   -webkit-backdrop-filter: blur(4px);
   }
  }
  @media screen and (min-width:1301px) and (max-width:10000px) {
