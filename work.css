@@ -146,8 +146,10 @@ main {
   visibility:hidden;
   grid-column-start: 1;
   grid-column-end: 13;
+  z-index: 100;
 }
 .intro-wrap{
+  z-index: 100;
   visibility:hidden;
   letter-spacing: 0em;
   line-height: 1.2;
@@ -714,6 +716,7 @@ body:not(.mobile) .hover-title:hover + .hover-image {
   }
 
   .intro-wrap div{
+    z-index: 100;
     visibility:visible;
     margin: .0rem;
   backdrop-filter: blur(4px);
@@ -743,6 +746,7 @@ body:not(.mobile) .hover-title:hover + .hover-image {
  @media only screen and (min-width:1px) and (max-width:576px) {
   .index-loading,
   .intro-wrap div{
+    z-index: 100;
     visibility:visible;
    font-size:1.5rem;
    line-height:1.75rem
@@ -751,6 +755,7 @@ body:not(.mobile) .hover-title:hover + .hover-image {
     display: none;
   }
   .intro-wrap{
+    z-index: 100;
     visibility:visible;
     margin: .0rem;
   backdrop-filter: blur(4px);
@@ -786,6 +791,7 @@ body:not(.mobile) .hover-title:hover + .hover-image {
     display: none;
   }
   .intro-wrap{
+    z-index: 100;
     visibility:visible;
     margin: .0rem;
   backdrop-filter: blur(4px);
@@ -805,6 +811,7 @@ body:not(.mobile) .hover-title:hover + .hover-image {
     display: none;
   }
   .intro-wrap{
+    z-index: 100;
     visibility:visible;
     margin: .0rem;
   backdrop-filter: blur(4px);
@@ -827,6 +834,7 @@ body:not(.mobile) .hover-title:hover + .hover-image {
     display: none;
   }
   .intro-wrap{
+    z-index: 100;
     visibility:visible;
     margin: .0rem;
   backdrop-filter: blur(4px);
@@ -870,6 +878,7 @@ body:not(.mobile) .hover-title:hover + .hover-image {
     display: none;
   }
   .intro-wrap{
+    z-index: 100;
     visibility:visible;
     margin: .0rem;
   backdrop-filter: blur(4px);
@@ -915,6 +924,7 @@ body:not(.mobile) .hover-title:hover + .hover-image {
    animation:animateIn .5s ease
   }
   .intro-wrap{
+    z-index: 100;
     visibility:visible;
     margin: .0rem;
   backdrop-filter: blur(4px);
@@ -980,6 +990,7 @@ body:not(.mobile) .hover-title:hover + .hover-image {
     display: none;
   }
   .intro-wrap{
+    z-index: 100;
     visibility:visible;
     margin: .0rem;
   backdrop-filter: blur(4px);
@@ -999,6 +1010,7 @@ body:not(.mobile) .hover-title:hover + .hover-image {
     display: none;
   }
   .intro-wrap{
+    z-index: 100;
     visibility:visible;
     margin: .0rem;
   backdrop-filter: blur(4px);
@@ -1110,6 +1122,7 @@ body:not(.mobile) .hover-title:hover + .hover-image {
    width:100%
   }
   .intro-wrap{
+    z-index: 100;
     visibility:visible;
     margin: .0rem;
   backdrop-filter: blur(4px);
