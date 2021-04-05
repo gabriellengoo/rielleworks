@@ -1,14 +1,14 @@
 /* right click------------------------------------------  */
-// if (document.addEventListener) {
-//   document.addEventListener('contextmenu', function(e) {
-//     window.location.href = 'newPage/index.html';
-//     e.preventDefault();
-//   }, false);
-// } else {
-//   document.attachEvent('oncontextmenu', function() {
-//     window.event.returnValue = false;
-//   });
-// }
+if (document.addEventListener) {
+  document.addEventListener('contextmenu', function(e) {
+    window.location.href = 'newPage/index.html';
+    e.preventDefault();
+  }, false);
+} else {
+  document.attachEvent('oncontextmenu', function() {
+    window.event.returnValue = false;
+  });
+}
 
 
 ! function i(r, s, l) {
